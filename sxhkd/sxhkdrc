@@ -127,21 +127,31 @@ super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
 
-#Fn key
-XF86AudioRaiseVolume
-	wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 5%+
+#Fn key thinkpad t480
 
-XF86AudioLowerVolume
-	wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-
-
-XF86AudioMute
+XF86AudioMute #F1
 	wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
 
-XF86MonBrightnessUp
-        xbacklight -inc 10
+XF86AudioLowerVolume #F2
+	wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-
 
-XF86MonBrightnessDown
+XF86AudioRaiseVolume #F3
+	wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 5%+
+
+XF86AudioMicMute #F4
+	wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle
+
+XF86MonBrightnessDown #F5
         xbacklight -dec 10
 
-XF86AudioMicMute
-	wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle
+XF86MonBrightnessUp #F6
+        xbacklight -inc 10
+
+
+XF86Display #F7
+XF86WLAN #F8
+XF86Tools #F9
+XF86Bluetooth #F10
+
+XF86Favorites #F12
+
