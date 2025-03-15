@@ -129,22 +129,22 @@ super + {Left,Down,Up,Right}
 
 #Fn key thinkpad t480
 
-XF86AudioMute #F1
+XF86AudioMute
 	wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
 
-XF86AudioLowerVolume #F2
+XF86AudioLowerVolume
 	wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-
 
-XF86AudioRaiseVolume #F3
+XF86AudioRaiseVolume
 	wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 5%+
 
-XF86AudioMicMute #F4
+XF86AudioMicMute
 	wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle
 
-XF86MonBrightnessDown #F5
+XF86MonBrightnessDown
         xbacklight -dec 10
 
-XF86MonBrightnessUp #F6
+XF86MonBrightnessUp
         xbacklight -inc 10
 
 
