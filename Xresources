@@ -1,0 +1,43 @@
+!! URxvt Appearance
+URxvt.font: xft:JetBrains Mono:size=12
+URxvt.boldFont: xft:JetBrains Mono Bold:size=12
+URxvt.italicFont: xft:JetBrains Mono Italic:size=12
+URxvt.boldItalicfont: xft:JetBrains Mono Bold Italic:size=12
+URxvt*scrollBar: false
+
+! special
+*.foreground:   #0a62ff
+*.background:   #fdfdfd
+*.cursorColor:  #0a62ff
+
+! black
+*.color0:       #383477
+*.color8:       #383477
+
+! red
+*.color1:       #5a6497
+*.color9:       #5a6497
+
+! green
+*.color2:       #8ab8f0
+*.color10:      #8ab8f0
+
+! yellow
+*.color3:       #d2a38f
+*.color11:      #ffe7d6
+
+! blue
+*.color4:       #fdfc92
+*.color12:      #fdfc92
+
+! magenta
+*.color5:       #85678f
+*.color13:      #b294bb
+
+! cyan
+*.color6:       #5e8d87
+*.color14:      #8abeb7
+
+! white
+*.color7:       #383477
+*.color15:      #0a62ff
